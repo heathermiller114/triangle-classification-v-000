@@ -9,7 +9,8 @@ class Triangle
   end
   
   def kind
-    if @length_side1 == @length_side2 && @length_side1 == @length_side3
+    if 
+    elsif @length_side1 == @length_side2 && @length_side1 == @length_side3
       :equilateral
     elsif @length_side1 == @length_side2 && @length_side1 != @length_side3 || @length_side2 == @length_side3 && @length_side2 != @length_side1 || @length_side1 == @length_side3 && @length_side1 != @length_side2
       :isosceles
